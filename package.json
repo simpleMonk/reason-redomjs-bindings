@@ -1,0 +1,25 @@
+{
+  "name": "reason-stimulus",
+  "version": "0.1.0",
+  "scripts": {
+    "build": "bsb -make-world",
+    "start": "bsb -make-world -w",
+    "clean": "bsb -clean-world",
+    "rollup": "./node_modules/.bin/rollup  --config rollup.config.js --watch"
+  },
+  "keywords": [
+    "BuckleScript"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "bs-platform": "^5.0.4",
+    "rollup": "^1.16.7",
+    "rollup-plugin-commonjs": "^10.0.1",
+    "rollup-plugin-json": "^4.0.0",
+    "rollup-plugin-node-resolve": "^5.2.0"
+  },
+  "dependencies": {
+    "redom": "^3.24.0"
+  }
+}
