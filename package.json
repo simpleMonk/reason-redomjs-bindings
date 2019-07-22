@@ -20,6 +20,7 @@
     "rollup-plugin-node-resolve": "^5.2.0"
   },
   "dependencies": {
+    "mithril": "^2.0.0-rc.9",
     "redom": "^3.24.0"
   }
 }

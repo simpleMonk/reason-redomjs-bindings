@@ -4,7 +4,7 @@ import json from 'rollup-plugin-json';
 
 
 module.exports = {
-    input: 'lib/es6_global/src/Index.bs.js',
+    input: 'lib/js/src/Index.bs.js',
     output: {
       file: './public/bundle.js',
       format: 'iife',
