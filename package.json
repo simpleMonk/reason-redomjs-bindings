@@ -1,11 +1,12 @@
 {
-  "name": "reason-stimulus",
+  "name": "reason-redom",
   "version": "0.1.0",
   "scripts": {
     "build": "bsb -make-world",
     "start": "bsb -make-world -w",
     "clean": "bsb -clean-world",
-    "rollup": "./node_modules/.bin/rollup  --config rollup.config.js --watch"
+    "rollup": "./node_modules/.bin/rollup  --config rollup.config.js --watch",
+    "build:prod": "./node_modules/.bin/rollup -c --environment INCLUDE_DEPS,BUILD:production"
   },
   "keywords": [
     "BuckleScript"
@@ -17,7 +18,8 @@
     "rollup": "^1.16.7",
     "rollup-plugin-commonjs": "^10.0.1",
     "rollup-plugin-json": "^4.0.0",
-    "rollup-plugin-node-resolve": "^5.2.0"
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-serve": "^1.0.1"
   },
   "dependencies": {
     "mithril": "^2.0.0-rc.9",

@@ -1,3 +1,6 @@
 {
-    "editor.fontSize": 13.6
+    "editor.fontSize": 13.6,
+    "editor.fontFamily": "'Recursive Mono Csl b030st',Menlo, Monaco, 'Courier New', monospace",
+    "editor.formatOnSave": true,
+    "workbench.colorTheme": "Winter is Coming (Light)"
 }
