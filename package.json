@@ -19,7 +19,7 @@
     "rollup-plugin-commonjs": "^10.0.1",
     "rollup-plugin-json": "^4.0.0",
     "rollup-plugin-node-resolve": "^5.2.0",
-    "rollup-plugin-serve": "^1.0.1"
+    "rollup-plugin-serve": "^1.0.2"
   },
   "dependencies": {
     "mithril": "^2.0.0-rc.9",
